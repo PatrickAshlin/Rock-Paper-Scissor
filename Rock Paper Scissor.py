@@ -29,15 +29,15 @@ while True:
   comp_choice = random.randint(1,4)
 
  if comp_choice == 1:
-    comp_choice_name = 'Rock'
+    comp_choice_ame = 'Rock'
  if comp_choice == 2:
-    comp_choice_name == 'Paper'
+    comp_choice_ame == 'Paper'
  elif comp_choice == 3:
-    comp_choice_name = 'Scissor'
+    comp_choice_ame = 'Scissor'
 
 
- print("Computer choice is: " + comp_choice_name)    
- print(choice_name+" V/S "+ comp_choice_name)
+ print("Computer choice is: " + comp_choice_ame)    
+ print(choice_name+" V/S "+ comp_choice_ame)
 
  if choice == comp_choice:
     print(" draw=>",end ="")
